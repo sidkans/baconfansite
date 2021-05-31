@@ -1,0 +1,106 @@
+/**tag selection**/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darksalmon;
+}
+h1{
+    color:rgb(100, 0, 0);
+    font-size: 90px;
+}
+
+img{
+    width: 125px;
+    border-radius: 25%;
+    transition-duration: 0.5s;
+}
+img:hover{
+    width: 150px;
+    border-radius: 10%;
+    background-color: gold;
+}
+hr{
+    border-style: none;
+    border-top-style:solid;
+    border-color: firebrick;
+    color: none;
+    border-width: 3px;
+}
+table{
+    border-spacing:3px;
+}
+/**class selection**/
+.main-hr{
+    border-color: darkred;
+    border-width: 6px;
+    border-style: none;
+    border-top-style:groove;
+}
+.bacon{
+    background-color: rgb(255, 0, 0);
+}
+.brocolli{
+    background-color: rgb(0, 155, 34);
+}
+.button{
+    background-color:brown;
+    color: rgb(78, 0, 0);
+    border-radius: 12px;
+    padding: 12px;
+    border-style: none;
+    transition-duration: 0.5s;
+    box-shadow: 0 4px rgb(65, 18, 18);
+}
+.button:hover{
+    background-color: black;
+    color: red;
+    box-shadow: 0 6px rgb(92, 27, 27);
+    
+}
+.bacondiv{
+    background-color: rgb(238, 128, 91);
+    border-radius: 5px;
+    width:90%;
+    transition-duration: 0.5s;
+    padding:10px;
+    margin: 10px;
+}
+.bacondiv:hover{
+    background-color: rgb(179, 73, 38);
+    border-radius: 10px;
+    color:rgb(255, 175, 166) ;
+}
+.primary{
+    background-image: url(https://img.freepik.com/free-vector/bacon-pattern-food-wallpaper-illustration_53876-62221.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position:center;
+    filter: blur(0.7px) opacity(93%);
+    transition-duration: 0.5s;
+}
+.primary:hover{
+    filter: blur(0px) opacity(100%);
+    background-position: top;
+}
+.buttondiv{
+    background-color: rgb(238, 128, 91);
+    border-radius: 5px;
+    width:90%;
+    transition-duration: 0.5s;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+}
+.buttondiv:hover{
+    background-color: rgb(194, 80, 42);
+    border-radius: 10px;
+    color:rgb(255, 214, 176);
+}
+/**id selection
+#heading {
+    color:darkviolet;
+}
+**/
